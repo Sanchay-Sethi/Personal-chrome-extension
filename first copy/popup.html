@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Study Prep</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* Modal Structure */
+
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #b220cf;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+        text-align: center;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #a417cf;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .version {
+        color: rgb(100, 26, 96);
+        font-size: 18px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #d814df;
+  
+      }
+      .flex p {
+        font-size: 10px;
+        color: #d814df;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img class="logo-icon" src="images/sanchay-logo.png"/>Study For Placement
+      </h1>
+    </div>
+    <div class="modal-content">
+      <p>FAANG Placement</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://practice.geeksforgeeks.org/batch/dsa-4#" target="_blank">
+            <i class="fa fa-google" style="color:rgb(48, 187, 78) "></i>
+            <p style="color:rgb(48, 187, 78)">GFG</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.codechef.com/problems/school/?itm_medium=navmenu&itm_campaign=problems" target="_blank">
+            <i class="fa fa-creative-commons" style="color:rgb(177, 110, 66) "></i>
+            <p style="color:rgb(177, 110, 66) ">CodeChef</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://leetcode.com/#" target="_blank">
+            <i class="fa fa-leanpub" style="color:rgb(243, 86, 86) "></i>
+            <p style="color:rgb(243, 86, 86) ">LeetCode</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.hackerrank.com/dashboard" target="_blank">
+            <i class="fa fa-houzz" style="color:rgb(0, 112, 60)"></i>
+            <p style="color:rgb(0, 112, 60)">Hackerank</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view" target="_blank">
+            <i class="fa fa-bar-chart" style="color:rgb(170, 168, 37) "></i>
+            <p style="color:rgb(170, 168, 37) ">DSAQues</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
